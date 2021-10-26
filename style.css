@@ -103,7 +103,7 @@ header i{
 .input-part input{
   text-align: center;
   padding: 0 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(204, 204, 204);
 }
 .input-part input:is(:focus, :valid){
   border: 3px solid #fc8743;
@@ -115,7 +115,7 @@ header i{
   height: 1px;
   width: 100%;
   margin: 25px 0;
-  background: #ccc;
+  background: rgb(204, 204, 204);
   position: relative;
   display: flex;
   align-items: center;
@@ -130,7 +130,7 @@ header i{
   border-radius:5px;
 }
 .input-part button{
-  color: #fff;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   background: #fc8743;
   transition: 0.3s ease;
@@ -187,7 +187,7 @@ header i{
   display: flex;
   width: 100%;
   justify-content: space-between;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgb(204, 204, 204);
 }
 .bottom-details .column{
   display: flex;
@@ -201,7 +201,7 @@ header i{
   font-size: 40px;
 }
 .column.humidity{
-  border-left: 1px solid #ccc;
+  border-left: 1px solid rgb(204, 204, 204);
 }
 .column .details{
   margin-left: 3px;
